@@ -8,3 +8,13 @@ Anotações:
  - Segue link para o uso dor Jersey https://jersey.java.net/download.html
  - Configuração do arquivo web.xml (Projeto/WebContent/WEB-INF/web.xml)
  
+```sh
+<servlet>
+      <servlet-name>Jersey</servlet-name>
+      <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>Jersey</servlet-name>
+      <url-pattern>/backend/*</url-pattern>
+  </servlet-mapping>
+```
