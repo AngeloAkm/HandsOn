@@ -5,7 +5,7 @@ Este projeto foi um simples teste de como se faz para consumir dados e/ou inform
 
 Anotações:
  - Para consumo da API da Marvel é necessário estar logado ... não consegui via DHC ou pelo próprio projeto.
- - Segue link para o uso dor Jersey https://jersey.java.net/download.html
+ - Segue link para o uso do [Jersey] 
  - Configuração do arquivo web.xml (Projeto/WebContent/WEB-INF/web.xml)
  
 ```sh
@@ -18,3 +18,4 @@ Anotações:
       <url-pattern>/backend/*</url-pattern>
   </servlet-mapping>
 ```
+ [Jersey]: <https://jersey.java.net/download.html>
