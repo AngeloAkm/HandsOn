@@ -6,10 +6,10 @@ import javax.ws.rs.*;
 public class UserService {
 	@GET
 	@Path("/index")
-	public Usuario getUser() {
-		Usuario retorno = new Usuario();
+	public void getUser() {
+		//Usuario retorno = new Usuario();
 		System.out.println("Método getUser");
-		return retorno;
+		//return retorno;
 	}
 
 	@PUT

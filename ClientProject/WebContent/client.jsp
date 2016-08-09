@@ -7,7 +7,8 @@
 <title>Update Usuario</title>
 </head>
 <body>
-	<form method="get" action="http://localhost:8080/RESTFullWebService/backend/user/service/index">
+	<!--<form method="get" action="http://localhost:8080/RESTFullWebService/backend/user/service/index">-->
+	<form method="get" action="http://localhost:8080/RESTFullWebService/backend/usuario">
 		Nome:<input type="text" name="username" /> 
 			 <input type="submit" value="submit" />
 	</form>

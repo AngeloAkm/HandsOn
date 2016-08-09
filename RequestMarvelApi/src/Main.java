@@ -10,15 +10,16 @@ public class Main {
 		//URL para teste
 		// MARVEL API: http://gateway.marvel.com:80/v1/public/characters/1009150 ÑOK
 		// LOCAL  API: http://localhost:8080/RESTFullWebService/backend/user/service/index OK
+		// LOCAL  API: http://localhost:8080/RESTFullWebService/backend/usuario OK
 		// FREE   API: http://services.groupkt.com/country/get/all 
 
 		// 1. Criando um cliente
 		Client cliente = ClientBuilder.newClient();
 
 		// 2. Setanto o target para o cliente
-		WebTarget targetClient = cliente.target("http://services.groupkt.com/country/get/all");
+		WebTarget targetClient = cliente.target("http://localhost:8080/RESTFullWebService/backend/usuario");
 
 		// 3. Recebendo o retorno da API da Marvel
-		System.out.println(targetClient.request(MediaType.APPLICATION_JSON).get(String.class) + " \nFim do resultado");
+		System.out.println(targetClient.request(MediaType.TEXT_XML).get(String.class) + " \nFim do resultado");
 	}
 }

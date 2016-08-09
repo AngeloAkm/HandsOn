@@ -1,16 +1,23 @@
 package com.service.user;
 
+import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
+
+@Path("/usuario")
 public class Usuario {
-	public String nome = "Angelo";
 
-	public String getNome() {
-		return nome;
+	@GET
+	@Produces(MediaType.TEXT_XML)
+	public String olaXml() {
+		String retorno = "<?xml version='1.0'?>" + "<ola>DEU CERTO XML</ola>";
+		return retorno;
 	}
 
-	public void setNome(String nome) {
-		this.nome = "Angelo";
-	}
-	
-	
+//	@GET
+//	@Produces(MediaType.APPLICATION_JSON)
+//	public String olaJson() {
+//		String retorno = "DEU CERTO JSON";
+//		return retorno;
+//	}
 
 }
