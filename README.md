@@ -12,7 +12,7 @@ No projeto foi usado
 Anotações:
  - Para consumo da API da Marvel é necessário estar logado ... não consegui via DHC ou pelo próprio projeto.
  - URL's para consulta da API
-   - MARVEL:   http://gateway.marvel.com:80/v1/public/characters/1009150
+   - MARVEL:   http://gateway.marvel.com:80/v1/public/characters/1009150 (necessário estar logado para ter retorno)
    - LOCAL:    http://localhost:8080/RESTFullWebService/backend/user/service/index
    - FREE API: http://services.groupkt.com/country/get/all 
  - Link para o uso do [Jersey] 
