@@ -4,7 +4,8 @@ Estudo para Hands On CI&amp;T
 Este projeto foi um simples teste de como se faz para consumir dados e/ou informações de uma API.
 
 No projeto foi usado
- * Eclipse (IDE)
+ * Eclipse (IDE) 
+ * Linguagem Java (JSP)
  * Apache TomCat 7.0 - Server
  * Jersey - RESTful Web Services in Java.
  * Git - Github ;)
@@ -16,6 +17,7 @@ Anotações:
    - LOCAL:    http://localhost:8080/RESTFullWebService/backend/user/service/index
    - FREE API: http://services.groupkt.com/country/get/all 
  - Link para o uso do [Jersey] 
+ - Link para consulta de [API's] que não exige login
  - Configuração do arquivo web.xml (Projeto/WebContent/WEB-INF/web.xml)
  
 ```sh
@@ -29,3 +31,4 @@ Anotações:
   </servlet-mapping>
 ```
  [Jersey]: <https://jersey.java.net/download.html>
+ [API's]: <http://www.groupkt.com/post/f2129b88/free-restful-web-services-to-consume-and-test.htm>
