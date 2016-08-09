@@ -3,7 +3,7 @@ Estudo para Hands On CI&amp;T
 
 Este projeto foi um simples teste de como se faz para consumir dados e/ou informações de uma API.
 
-Uso
+No projeto foi usado
  * Eclipse (IDE)
  * Apache TomCat 7.0 - Server
  * Jersey - RESTful Web Services in Java.
@@ -11,6 +11,10 @@ Uso
 
 Anotações:
  - Para consumo da API da Marvel é necessário estar logado ... não consegui via DHC ou pelo próprio projeto.
+ - URL's para consulta da API
+   - MARVEL:   http://gateway.marvel.com:80/v1/public/characters/1009150
+   - LOCAL:    http://localhost:8080/RESTFullWebService/backend/user/service/index
+   - FREE API: http://services.groupkt.com/country/get/all 
  - Link para o uso do [Jersey] 
  - Configuração do arquivo web.xml (Projeto/WebContent/WEB-INF/web.xml)
  
