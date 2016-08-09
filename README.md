@@ -16,7 +16,7 @@ Anotações:
    - LOCAL:    http://localhost:8080/RESTFullWebService/backend/user/service/index
    - FREE API: http://services.groupkt.com/country/get/all 
  - Link para o uso do [Jersey] 
- - Link para consulta de [APi's] que não exige login
+ - Link para consulta de [API's] que não exige login
  - Configuração do arquivo web.xml (Projeto/WebContent/WEB-INF/web.xml)
  
 ```sh
@@ -30,4 +30,4 @@ Anotações:
   </servlet-mapping>
 ```
  [Jersey]: <https://jersey.java.net/download.html>
- [APi's]: <http://www.groupkt.com/post/f2129b88/free-restful-web-services-to-consume-and-test.htm>
+ [API's]: <http://www.groupkt.com/post/f2129b88/free-restful-web-services-to-consume-and-test.htm>
