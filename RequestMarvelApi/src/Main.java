@@ -11,10 +11,10 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		// Chave publica da minha conta na API da Marvel
-		String publicKey = "2e53bc718468909877f2691840db9e70";
-		// Chave privada da minha conta na API da Marvel
-		String privateKey = "c00b50707b1a368f5bb8d82f44dd86542359438f";
+		// Chave publica da conta na API da Marvel
+		String publicKey = "NUMERO_CHAVE_PUBLICA";
+		// Chave privada da conta na API da Marvel
+		String privateKey = "NUMERO_CHAVE_PRIVADA";
 
 		// Pegando a data e hora atual
 		Long currentTime = DateTimeUtils.currentTimeMillis();
