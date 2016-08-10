@@ -29,6 +29,8 @@ Anotações:
  - [Doc Api Marvel] para consulta de métodos "1009610 ID do Spider-Man"
  - Link para o uso do [Jersey] 
  - Link para consulta de [API's] que não exige login
+ - Link para o Git do [pablocabrera85] aonde tem um projeto completo para teste de consumo ( é necesário ter o Maven instalado )
+ - O retorno das consultas são em JSON, se necessário segue um link com um formatador de Json
  - Configuração do arquivo web.xml (Projeto/WebContent/WEB-INF/web.xml)
  
 ```sh
@@ -41,6 +43,8 @@ Anotações:
       <url-pattern>/backend/*</url-pattern>
   </servlet-mapping>
 ```
+ [Json]: <https://jsonformatter.curiousconcept.com/>
+ [pablocabrera85]: <https://github.com/pablocabrera85/marvel-api-client>
  [Jersey]: <https://jersey.java.net/download.html>
  [API's]: <http://www.groupkt.com/post/f2129b88/free-restful-web-services-to-consume-and-test.htm>
  [Doc Api Marvel]: <http://developer.marvel.com/docs#!/public/getCreatorCollection_get_0>
