@@ -16,6 +16,7 @@ Anotações:
    - MARVEL:   http://gateway.marvel.com:80/v1/public/characters/1009150 (necessário estar logado para ter retorno)
    - LOCAL:    http://localhost:8080/RESTFullWebService/backend/user/service/index
    - FREE API: http://services.groupkt.com/country/get/all 
+ - [Doc Api Marvel] para consulta de métodos "1009610 ID do Spider-Man"
  - Link para o uso do [Jersey] 
  - Link para consulta de [API's] que não exige login
  - Configuração do arquivo web.xml (Projeto/WebContent/WEB-INF/web.xml)
@@ -32,3 +33,4 @@ Anotações:
 ```
  [Jersey]: <https://jersey.java.net/download.html>
  [API's]: <http://www.groupkt.com/post/f2129b88/free-restful-web-services-to-consume-and-test.htm>
+ [Doc Api Marvel]: <http://developer.marvel.com/docs#!/public/getCreatorCollection_get_0>
