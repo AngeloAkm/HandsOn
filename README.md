@@ -26,12 +26,13 @@ Anotações:
    - MARVEL:   http://gateway.marvel.com:80/v1/public/characters/1009150 (necessário estar logado para ter retorno)
    - LOCAL:    http://localhost:8080/RESTFullWebService/backend/user/service/index
    - FREE API: http://services.groupkt.com/country/get/all 
- - [Doc Api Marvel] para consulta de métodos "1009610 ID do Spider-Man"
- - Link para o uso do [Jersey] 
- - Link para consulta de [API's] que não exige login
- - Link para o Git do [pablocabrera85] aonde tem um projeto completo para teste de consumo ( é necesário ter o Maven instalado )
- - O retorno das consultas são em JSON, se necessário segue um link com um formatador de [Json]
- - Configuração do arquivo web.xml (Projeto/WebContent/WEB-INF/web.xml)
+ 
+- [Doc Api Marvel] para consulta de métodos "1009610 ID do Spider-Man"
+- Link para o uso do [Jersey] 
+- Link para consulta de [API's] que não exige login
+- Link para o Git do [pablocabrera85] aonde tem um projeto completo para teste de consumo ( é necesário ter o Maven instalado )
+- O retorno das consultas são em JSON, se necessário segue um link com um formatador de [Json]
+- Configuração do arquivo web.xml (Projeto/WebContent/WEB-INF/web.xml)
  
 ```sh
 <servlet>
