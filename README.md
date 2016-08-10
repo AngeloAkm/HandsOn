@@ -11,6 +11,7 @@ No projeto foi usado
  * Git - Github ;)
 
 Anotações:
+- Não é necessário baixar todos os arquivos e diretórios, para ver como se funiona apenas baixe a pasta [RequestMarvelApi], nela criei um "MAIN" simples e rápido.
  - Para consumo da API da Marvel é necessário estar logado , para isso é necessário a chave publica e privada que são geradas no momento em que você cria a conta. Jersey vai auxiliar nesta conexão entre cliente(você) e servidor(Marvel API). O segredo está na classe WebTarget.
   - Segue um exemplo da linha de código aonde se faz a requisição:
 ```sh
@@ -44,6 +45,7 @@ Anotações:
       <url-pattern>/backend/*</url-pattern>
   </servlet-mapping>
 ```
+[RequestMarvelApi]: <https://github.com/AngeloAkm/HandsOn/tree/master/RequestMarvelApi>
  [Json]: <https://jsonformatter.curiousconcept.com/>
  [pablocabrera85]: <https://github.com/pablocabrera85/marvel-api-client>
  [Jersey]: <https://jersey.java.net/download.html>
