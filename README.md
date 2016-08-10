@@ -13,15 +13,16 @@ No projeto foi usado
 Anotações:
  - Para consumo da API da Marvel é necessário estar logado , para isso é necessário a chave publica e privada que são geradas no momento em que você cria a conta. Jersey vai auxiliar nesta conexão entre cliente(você) e servidor(Marvel API). O segredo está na classe WebTarget.
   - Segue um exemplo da linha de código aonde se faz a requisição:
-  ```sh
+```sh
   Long currentTime = DateTimeUtils.currentTimeMillis();
   
   byte[] hash = org.apache.commons.codec.digest.DigestUtils.md5(currentTime + chavePrivada + chavePublica);
   
    WebTarget baseTarget = client.target("http://gateway.marvel.com:80/v1/public/characters/1009610")
 						.queryParam("ts", currentTime).queryParam("apikey", chavePublica).queryParam("hash", result);
-		```
- - URL's para consulta da API
+```
+ 
+- URL's para consulta da API
    - MARVEL:   http://gateway.marvel.com:80/v1/public/characters/1009150 (necessário estar logado para ter retorno)
    - LOCAL:    http://localhost:8080/RESTFullWebService/backend/user/service/index
    - FREE API: http://services.groupkt.com/country/get/all 
