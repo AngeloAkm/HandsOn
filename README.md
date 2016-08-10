@@ -30,7 +30,7 @@ Anotações:
  - Link para o uso do [Jersey] 
  - Link para consulta de [API's] que não exige login
  - Link para o Git do [pablocabrera85] aonde tem um projeto completo para teste de consumo ( é necesário ter o Maven instalado )
- - O retorno das consultas são em JSON, se necessário segue um link com um formatador de Json
+ - O retorno das consultas são em JSON, se necessário segue um link com um formatador de [Json]
  - Configuração do arquivo web.xml (Projeto/WebContent/WEB-INF/web.xml)
  
 ```sh
