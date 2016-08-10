@@ -12,8 +12,9 @@ No projeto foi usado
 
 Anotações:
 - Não é necessário baixar todos os arquivos e diretórios, para ver como se funiona apenas baixe a pasta [RequestMarvelApi], nela criei um "MAIN" simples e rápido.
- - Para consumo da API da Marvel é necessário estar logado , para isso é necessário a chave publica e privada que são geradas no momento em que você cria a conta. Jersey vai auxiliar nesta conexão entre cliente(você) e servidor(Marvel API). O segredo está na classe WebTarget.
-  - Segue um exemplo da linha de código aonde se faz a requisição:
+ 
+- Para consumo da API da Marvel é necessário estar logado , para isso é necessário a chave publica e privada que são geradas no momento em que você cria a conta. Jersey vai auxiliar nesta conexão entre cliente(você) e servidor(Marvel API). O segredo está na classe WebTarget.
+- Segue um exemplo da linha de código aonde se faz a requisição:
 ```sh
   Long currentTime = DateTimeUtils.currentTimeMillis();
   
