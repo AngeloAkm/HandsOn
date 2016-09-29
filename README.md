@@ -17,22 +17,22 @@ Anotações:
 - Segue um exemplo da linha de código aonde se faz a requisição:
 ```sh
 
-  	String publicKey = "NUMERO_CHAVE_PUBLICA";
-		
+	String publicKey = "NUMERO_CHAVE_PUBLICA";
+
 	String privateKey = "NUMERO_CHAVE_PRIVADA";
 
 	Long currentTime = DateTimeUtils.currentTimeMillis();
 
 	byte[] hash = org.apache.commons.codec.digest.DigestUtils.md5(currentTime + privateKey + publicKey);
 
-	  String result = new String(Hex.encodeHex(hash));
+	String result = new String(Hex.encodeHex(hash));
 
-	  Long currentTime = DateTimeUtils.currentTimeMillis();
+	Long currentTime = DateTimeUtils.currentTimeMillis();
 
-	  byte[] hash = org.apache.commons.codec.digest.DigestUtils.md5(currentTime + chavePrivada + chavePublica);
+	byte[] hash = org.apache.commons.codec.digest.DigestUtils.md5(currentTime + chavePrivada + chavePublica);
 
-	   WebTarget baseTarget = client.target("http://gateway.marvel.com:80/v1/public/characters/1009610")
-						.queryParam("ts", currentTime).queryParam("apikey", chavePublica).queryParam("hash", result);
+	WebTarget baseTarget = client.target("http://gateway.marvel.com:80/v1/public/characters/1009610")
+		.queryParam("ts", currentTime).queryParam("apikey", chavePublica).queryParam("hash", result);
 ```
  
 - URL's para consulta da API
