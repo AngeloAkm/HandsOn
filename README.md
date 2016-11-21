@@ -17,22 +17,25 @@ Anotações:
 - Segue um exemplo da linha de código aonde se faz a requisição:
 ```sh
 
-	String publicKey = "NUMERO_CHAVE_PUBLICA";
+	
+		String publicKey = "NUMERO_CHAVE_PUBLICA";
 
-	String privateKey = "NUMERO_CHAVE_PRIVADA";
+		String privateKey = "NUMERO_CHAVE_PRIVADA";
 
-	Long currentTime = DateTimeUtils.currentTimeMillis();
 
-	byte[] hash = org.apache.commons.codec.digest.DigestUtils.md5(currentTime + privateKey + publicKey);
+		Long currentTime = DateTimeUtils.currentTimeMillis();
 
-	String result = new String(Hex.encodeHex(hash));
+		byte[] hash = org.apache.commons.codec.digest.DigestUtils.md5(currentTime + privateKey + publicKey);
 
-	Long currentTime = DateTimeUtils.currentTimeMillis();
 
-	byte[] hash = org.apache.commons.codec.digest.DigestUtils.md5(currentTime + chavePrivada + chavePublica);
+		String result = new String(Hex.encodeHex(hash));
 
-	WebTarget baseTarget = client.target("http://gateway.marvel.com:80/v1/public/characters/1009610")
-		.queryParam("ts", currentTime).queryParam("apikey", chavePublica).queryParam("hash", result);
+		Client client = ClientBuilder.newClient();
+
+		WebTarget baseTarget = client.target("http://gateway.marvel.com:80/v1/public/characters/1009610")
+				.queryParam("ts", currentTime).queryParam("apikey", publicKey).queryParam("hash", result);
+
+		System.out.println(baseTarget.request(MediaType.APPLICATION_JSON).get(String.class) + " \nFim do resultado");
 ```
  
 - URL's para consulta da API
@@ -57,7 +60,7 @@ Anotações:
       <url-pattern>/backend/*</url-pattern>
   </servlet-mapping>
 ```
-[RequestMarvelApi]: <https://github.com/AngeloAkm/HandsOn/tree/master/RequestMarvelApi>
+[RequestMarvelApi]: <https://github.com/AngeloAkm/marvelAPI_Java/blob/master/RequestMarvelApi/src/Main.java>
  [Json]: <https://jsonformatter.curiousconcept.com/>
  [pablocabrera85]: <https://github.com/pablocabrera85/marvel-api-client>
  [Jersey]: <https://jersey.java.net/download.html>
